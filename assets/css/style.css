@@ -11,15 +11,27 @@ body {
 }
 
 header {
-    width: 960px;
     background-color: #ffffff;
     border-color: #cccccc;
     border-bottom: 4px solid;
 }
 
+.main h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: solid 4px #cccccc;
+}
+
+.heading {
+    width: 960px;
+    margin: 0 auto;
+}
+
 /* Centers the element */
 .topbar {
     margin: 0 auto;
+    border-bottom: 3px solid #cccccc;
 }
 
 /* inline-block lets you change the padding, etc. */
@@ -35,6 +47,11 @@ header nav {
     display: inline-block;
     padding: 25px;
     font-size: 15px;
+}
+
+.link {
+    border-right: 2px solid #dddddd;
+    padding-right: 5px;
 }
 
 h1 {
@@ -56,6 +73,8 @@ h2 {
     font-size: 20px;
     line-height: 1.5;
     margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .profile_pic {
@@ -68,9 +87,9 @@ h2 {
     margin-bottom: 20px;
 }
 
-footer {
+.bottombar {
     background-color: #666666;
-    border-color: #4aaaa5;
-    border-top: 5px solid;
-    display: inline-block;
+    border-top: solid 5px #4aaaa5;
+    padding: 20px;
+    text-align: center; 
 }
