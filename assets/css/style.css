@@ -6,6 +6,7 @@
 /* overflow: auto lets the container stretch to
 accommodate the content */
 body {
+    /* Background pattern from Toptal Subtle Patterns */    
     background-image: url(../images/escher.png);
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
