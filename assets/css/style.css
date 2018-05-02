@@ -101,13 +101,6 @@ p, I had to use .main p { */
     margin-bottom: 20px;
 }
 
-/* Sticky footer trouble: tried flexbox, and 
-relative/absolute positioning for main/bottombar.  
-Index and Portfolio fine by virtue of content size, 
-contact has a gap.  Fixed with increased main 
-margin-bottom, but this is not a good solution 
-long-term. */
-
 /* You don't want to know how long the solution to 
 moving the copyright text to the bottom of the box
 eluded me.  Got it now.  ;-) */
@@ -116,6 +109,7 @@ eluded me.  Got it now.  ;-) */
     border-top: solid 5px #4aaaa5;
     padding: 40px 0px 0px 0px;
     text-align: center;
+    margin-top: 200px;
 }
 
 /* Begin contact.html specific styling */
