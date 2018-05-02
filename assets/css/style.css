@@ -21,6 +21,7 @@ header {
     padding-bottom: 10px;
     padding-top: 10px;
     border-bottom: solid 4px #cccccc;
+    margin-bottom: 20px;
 }
 
 .heading {
@@ -72,6 +73,7 @@ h2 {
     overflow: auto;
     font-size: 20px;
     line-height: 1.5;
+    padding: 5px 20px 5px 20px;
     margin: 0 auto;
     margin-bottom: 25px;
     margin-top: 25px;
@@ -92,4 +94,31 @@ h2 {
     border-top: solid 5px #4aaaa5;
     padding: 20px;
     text-align: center; 
+}
+
+.field {
+    width: 100%;
+    padding: 12px 15px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    height: 150px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    overflow: auto;
+    padding: 12px 25px;
+    font-size: 18px;
+}
+
+#bottombarContact {
+    background-color: #666666;
+    border-top: solid 5px #4aaaa5;
+    padding: 20px;
+    text-align: center;
+    margin-top: 150px;
 }
